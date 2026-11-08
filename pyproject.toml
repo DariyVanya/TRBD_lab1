@@ -1,0 +1,11 @@
+[project]
+name = "kafka-electronics-lab"
+version = "0.1.0"
+description = "A small Kafka producer and consumer demonstration"
+requires-python = ">=3.11"
+dependencies = [
+    "kafka-python>=2.0.2,<3",
+]
+
+[tool.uv]
+package = false
